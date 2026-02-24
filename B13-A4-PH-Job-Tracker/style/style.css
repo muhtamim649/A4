@@ -1,0 +1,13 @@
+
+.card-interview {
+    border-left: 4px solid #10b981 !important;
+}
+
+.card-rejected {
+    border-left: 4px solid #ef4444 !important;
+}
+
+
+.job-card {
+    transition: all 0.2s ease-in-out;
+}
