@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body class="bg-slate-50 min-h-screen p-6 md:p-10 text-slate-800">
+
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold mb-8">Job Application Tracker</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <p class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Total Applications</p>
+                <p id="total-val" class="text-2xl font-bold mt-1">4</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <p class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Interviews</p>
+                <p id="int-val" class="text-2xl font-bold mt-1 text-emerald-500">0</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                <p class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Rejected</p>
+                <p id="rej-val" class="text-2xl font-bold mt-1 text-rose-500">0</p>
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-xl font-semibold">Available Jobs</h2>
+            <span id="job-count-text" class="text-sm text-slate-500 font-medium">4 jobs</span>
+        </div>
+
+        <div id="job-container" class="space-y-4">
+            </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
